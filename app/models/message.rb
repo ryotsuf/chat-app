@@ -9,7 +9,4 @@ class Message < ApplicationRecord
   def was_attached?
     self.image.attached?
   end
-
-
-  validates :content, presence: true
 end
